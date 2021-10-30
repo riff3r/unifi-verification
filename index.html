@@ -4,214 +4,266 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Due to huge demands, some corrupted businesses always opt in to making counterfeit products of well-known brands for some quick profit. Due to their counterfeit activity both consumer and brands faces tremendous losses and slowly brand lost the trust from consumers and fade way from the industry.">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/icon-font.css">
-    <title>Unifi Verification</title>
+    <link rel="icon" href="img/fevicon.png">
+<!--    <link rel="stylesheet" href="css/icon-font.css">-->
+    <title>UniFi Verification Limited</title>
 </head>
 <body>
-    <header class="header">
+    <header>
         <div class="header-nav">
             <div class="header__logo-box">
-                <img class="header__logo" src="img/logo.png" alt="Logo" />
+                <a href="#"><img class="header__logo" src="img/logo.jpg" alt="Logo" /></a>
             </div>
 
-            <div class="">
-                <nav>
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Contact Us</a></li>
-                    </ul>
-                </nav>
-            </div>
+            <nav class="main-nav">
+                <ul class="main-nav-list">
+                    <li><a class="nav-btn-1" href="#">Home</a></li>
+                    <li><a class="nav-btn-2" href="#features">Features</a></li>
+<!--                    <li><a href="#features">Products</a></li>-->
+                    <li><a class="nav-btn-3" href="#about">About Us</a></li>
+                    <li><a class="nav-btn-4" href="#contact">Contact Us</a></li>
+                </ul>
+            </nav>
+
+            <button class="btn-mobile-nav">
+                <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+                <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+            </button>
         </div>
-
-
-    <div class="header__text-box">
-        <h1 class="heading-primary">
-            <span class="heading-primary--main"> Welcome <br>  to <br> Unifi Verification </span>
-
-            <span class="heading-primary--sub"> Lorem Ipsum is simply dummy text </span>
-        </h1>
-    </div>
     </header>
 
+    <div class="header">
+
+        <div class="header__text-box">
+            <h1 class="heading-primary">
+                <span class="heading-primary--main"><span>Welcome to</span>  <br> <strong>Unifi Verification</strong></span>
+
+                <span class="heading-primary--sub"> PROTECT YOUR BRAND TODAY </span>
+            </h1>
+        </div>
+    </div>
+
     <main>
-        <section class="section-about">
+        <section class="section-about" id="how">
             <div class="u-center-text u-margin-bottom-big">
                 <h2 class="heading-secondary">
                     How to Check
                 </h2>
+<!--                width="24" height="24"-->
+                <div class="down-arrow">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-down" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <line x1="12" y1="5" x2="12" y2="19"></line>
+                        <line x1="18" y1="13" x2="12" y2="19"></line>
+                        <line x1="6" y1="13" x2="12" y2="19"></line>
+                    </svg>
+                </div>
+
             </div>
+
+
 
             <div class="row section-about-flex">
                 <div class="col-1-of-4">
                     <div class="feature-box">
-<!--                        <i class="feature-box__icon icon-basic-world"></i>-->
-
                         <img src="img/scratch-gold.png" class="feature-box--icon" alt="Scratch QR Code">
 
                         <h3 class="heading-tertiary u-margin-bottom-small">
-                            Scratch QR Code
+                            Scratch for Code
                         </h3>
                         <p class="feature-box__text">
-                            First, rub the white part of the sticker on the product with the edge of a coin and reveal the QR codes.
+                            Gently scratch to reveal QR Code bottom part and the unique security code. Scratch full area, otherwise, QR code will not work.
                         </p>
                     </div>
                 </div>
 
                 <div class="col-1-of-4">
                     <div class="feature-box">
-<!--                        <i class="feature-box__icon icon-basic-compass"></i>-->
                         <img src="img/scan-gold.png" class="feature-box--icon" alt="Scan Qr Code">
 
                         <h3 class="heading-tertiary u-margin-bottom-small">
-                            Scan Qr Code
+                            Scan QR Code
                         </h3>
                         <p class="feature-box__text">
-                            Using any other phone with scanning capability, then open the scanning app and hold your phone so that the QR code appears in the viewfinder.
+                            Scan the QR Code to visit the verification page. If your phone doesn’t support QR code scanning by default, then download any QR Code scanner from playstore or app store.
                         </p>
                     </div>
                 </div>
 
                 <div class="col-1-of-4">
                     <div class="feature-box">
-<!--                        <i class="feature-box__icon icon-basic-map"></i>-->
                         <img src="img/unique-code.png" class="feature-box--icon" alt="Scan Qr Code">
                         <h3 class="heading-tertiary u-margin-bottom-small">
-                            Mobile Number & Security code
+                            Verification Method
                         </h3>
                         <p class="feature-box__text">
-                            After recognizing the QR code, it will automatically open a website to manually enter the QR code and your phone number.
+                            Once you are in the verification page, please enter the Unique Code and your phone number to check the product authenticity.
                         </p>
                     </div>
                 </div>
 
                 <div class="col-1-of-4">
                     <div class="feature-box">
-<!--                        <i class="feature-box__icon icon-basic-heart"></i>-->
                         <img src="img/verified.png" class="feature-box--icon" alt="Scan Qr Code">
                         <h3 class="heading-tertiary u-margin-bottom-small">
                             Successfully Verified
                         </h3>
                         <p class="feature-box__text">
-                            Finally, this website will show a notification and share on valuable details about the products authenticity.
+                            If you entered the unique code properly, you would see verification message that if it was authentic product or service.
                         </p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="section-features">
-            <div class="row">
-                <h2>Features</h2>
+        <section class="section-features" id="features">
+            <h2>Features</h2>
 
-                <div class="col-1-of-3">
-                    <div class="feature-box">
-                        <i class="feature-box__icon icon-basic-world"></i>
-                        <h3 class="heading-tertiary u-margin-bottom-small">
-                            Hologram With Security Code
-                        </h3>
-                        <p class="feature-box__text">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
-                            explicabo quisquam porro
-                        </p>
-                    </div>
+            <div class="row grid grid--3-cols">
+                <div class="feature-box">
+                    <!--                    <i class="feature-box__icon icon-basic-compass"></i>-->
+                    <img src="img/6-layer.png" class="feature-box--icon" alt="6 layers of security systems">
+                    <h3 class="heading-tertiary u-margin-bottom-small">
+                        6 Layers of Security Systems
+                    </h3>
                 </div>
 
-                <div class="col-1-of-3">
-                    <div class="feature-box">
-                        <i class="feature-box__icon icon-basic-compass"></i>
-                        <h3 class="heading-tertiary u-margin-bottom-small">
-                            6 layers of security systems
-                        </h3>
-                        <p class="feature-box__text">
-                            The easier and quicker security system is more secure and can be scanned using a smartphone or any other phone with scanning capability.
-                        </p>
-                    </div>
+                <div class="feature-box">
+<!--                    <i class="feature-box__icon icon-basic-world"></i>-->
+                    <img src="img/hologram.png" class="feature-box--icon" alt="Hologram With Security Code">
+                    <h3 class="heading-tertiary u-margin-bottom-small">
+                        Hologram With Security Code
+                    </h3>
                 </div>
 
-                <div class="col-1-of-3">
-                    <div class="feature-box">
-                        <i class="feature-box__icon icon-basic-map"></i>
-                        <h3 class="heading-tertiary u-margin-bottom-small">
-                            Unique Gold Color
-                        </h3>
-                        <p class="feature-box__text">
-                            In the meaning of gold color is luxury and quality, prestige and it reflects wisdom, beauty and generosity, suggesting that a product or service is expensive and exclusive.
-                        </p>
-                    </div>
+                <div class="feature-box">
+<!--                    <i class="feature-box__icon icon-basic-map"></i>-->
+                    <img src="img/gold-color.png" class="feature-box--icon" alt="6 layers of security systems">
+                    <h3 class="heading-tertiary u-margin-bottom-small">
+                        Unique 3D Logo
+                    </h3>
                 </div>
+
+                <div class="feature-box">
+<!--                    <i class="feature-box__icon icon-basic-world"></i>-->
+                    <img src="img/secure-code.png" class="feature-box--icon" alt="Hologram With Security Code">
+                    <h3 class="heading-tertiary u-margin-bottom-small">
+                        Scratch to Reveal QR Code & Secret Code
+                    </h3>
+                </div>
+
+                <div class="feature-box">
+<!--                    <i class="feature-box__icon icon-basic-compass"></i>-->
+                    <img src="img/special-qr-code.png" class="feature-box--icon" alt="Hologram With Security Code">
+
+                    <h3 class="heading-tertiary u-margin-bottom-small">
+                        All Codes are Unique Against the QR Code
+                    </h3>
+                </div>
+
+                <div class="feature-box">
+<!--                    <i class="feature-box__icon icon-basic-map"></i>-->
+                    <img src="img/phone-number.png" class="feature-box--icon" alt="Hologram With Security Code">
+                    <h3 class="heading-tertiary u-margin-bottom-small">
+                        Authenticate Against Unique Phone Number
+                    </h3>
+                </div>
+
             </div>
 
-            <div class="row">
-                <div class="col-1-of-3">
-                    <div class="feature-box">
-                        <i class="feature-box__icon icon-basic-world"></i>
-                        <h3 class="heading-tertiary u-margin-bottom-small">
-                            Scratch to reveal codes and QR Code
-                        </h3>
-                        <p class="feature-box__text">
-                            The stamp that can be removed with the edge of a coin, scratch to reveal the QR codes.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="col-1-of-3">
-                    <div class="feature-box">
-                        <i class="feature-box__icon icon-basic-compass"></i>
-                        <h3 class="heading-tertiary u-margin-bottom-small">
-                            All codes are unique to special QR codes
-                        </h3>
-                        <p class="feature-box__text">
-                            Each and every product QR code is unique and tied to a specific receiver.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="col-1-of-3">
-                    <div class="feature-box">
-                        <i class="feature-box__icon icon-basic-map"></i>
-                        <h3 class="heading-tertiary u-margin-bottom-small">
-                            Codes must validate using phone number
-                        </h3>
-                        <p class="feature-box__text">
-                            When a person scans the QR code, it will automatically direct them to enter specific phone number and will provide a message for authenticate.
-                        </p>
-                    </div>
-                </div>
-            </div>
         </section>
 
-        <section class="section-about-us">
+        <section class="section-about-us" id="about">
             <div class="row">
                 <div class="u-center-text u-margin-bottom-big">
                     <h2 class="heading-secondary">
-                        About Us
+                        Why use UniFi Verification for your products line?
                     </h2>
                 </div>
 
-                <p>
-                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.
-                    <br><br>
-                    It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
-                </p>
+                <div class="section-about-us-text">
+                    <p>
+                        Today Bangladesh is one of the fastest growing country in the world and it has seen significant lifestyle changes from last decades.
+                    </p>
+
+                    <p>
+                        Bangladeshi consumers now adopting branded products more than before as they are very concern about their health and skin care these days.
+                    </p>
+
+                    <p>
+                        Due to huge demands, some corrupted businesses always opt in to making counterfeit products of well-known brands for some quick profit. Due to their counterfeit activity both consumer and brands faces tremendous losses and slowly brand lost the trust from consumers and fade way from the industry.
+                    </p>
+
+                    <p>
+                        As we all know Bangladesh still needs time to implement security to protect businesses from the fraud.
+                    </p>
+
+                    <p>
+                        So here comes UniFi Verification Ltd, with security system which is impossible to break by the unethical businesses.
+                    </p>
+
+                    <p>
+                        Once the businesses deploy the security code into the products, businesses can see significant gains of trust between consumers and huge sales growth over the period as counterfeit will have no choice but to leave the business.
+                    </p>
+
+                </div>
 
             </div>
         </section>
 
+        <section class="section-contact-us" id="contact">
+            <div class="row">
+                <div class="u-center-text u-margin-bottom-big">
+                    <h2 class="heading-secondary">
+                        Contact Us
+                    </h2>
+                </div>
 
+                <div class="contact-us-form">
+                    <form class="contact-form">
+                        <div>
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="Name" placeholder="Type Your Name" required>
+                        </div>
+
+                        <div>
+                            <label for="email">Email:</label>
+                            <input type="text" id="email" name="email" placeholder="example@email.com" required>
+                        </div>
+
+                        <div>
+                            <label for="mobile">Mobile:</label>
+                            <input type="tel" id="mobile" name="mobile" placeholder="Type Your mobile number" required>
+                        </div>
+
+                        <div>
+                            <label for="message">Your message:</label>
+                            <textarea class="form-control" id="message" placeholder="Type your message" rows="6"></textarea>
+                        </div>
+
+                        <button class="btn btn--form">Submit</button>
+                    </form>
+
+                    <h3 class="contact-us-tel">
+                        Call Us - <a href="tel:01309018707">01309018707</a>
+                    </h3>
+                </div>
+            </div>
+        </section>
     </main>
 
 
     <footer class="">
         <p id="copyright" class="copyright text">
-            UniFiVerification - Copyright &copy; 2021
+            Copyright &copy; <span class="year">2021</span> by UniFi Verification Limited. All Rights Reserved.
         </p>
     </footer>
 
 
-
-
+    <script defer src="js/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
